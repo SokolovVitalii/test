@@ -18,6 +18,7 @@ body {
 .box {
     margin-top: 20px;
     height: 200px;
+    width: 400px;
     border: dashed 1px limegreen;
     color: white;
     font-size: 30px;
@@ -33,9 +34,9 @@ body {
 }
 .green {
     background-color: green;
-    flex-grow: 1;
+    flex-grow: 3;
     order: 1;
-    flex-shrink: 1;
+    flex-shrink: 3;
     flex-basis: auto;
 }
 .black {

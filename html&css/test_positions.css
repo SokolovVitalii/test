@@ -1,0 +1,40 @@
+.container {
+    height: 500px;
+    width: 500px;
+    background-color: beige;
+    border: solid 3px red;
+    position: relative;
+}
+.box {
+    width: 150px;
+    height: 150px;
+    background-color: green;
+}
+.topleft {
+top: 0px;
+left: 0px;
+position: absolute;
+}
+.topright {
+top: 0px;
+right: 0px;
+position: absolute;
+}
+.leftbottom {
+bottom: 0px;
+left: 0px;
+position: absolute;
+}
+.rightbottom {
+bottom: 0px;
+right: 0px;
+position: absolute;
+}
+.center {
+    background-color: blue;
+    left: 35%;
+    top: 35%;
+    z-index: 30;
+
+position: absolute;
+}

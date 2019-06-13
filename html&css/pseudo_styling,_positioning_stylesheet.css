@@ -50,3 +50,23 @@ h3::selection {
 p::first-line{
     color: skyblue;
 }
+input {
+    width: 30px;
+    height: 30px;
+    color: green;
+}
+input:in-range {
+    color: red;
+    /* background-color:aqua; */
+}
+.box{
+    min-width:500px;
+    max-width: 1000px;
+    background-color: yellowgreen;
+}
+.box:in-range{
+    background-color: aquamarine;
+}
+.box:out-of-range{
+    background-color: brown;
+}
