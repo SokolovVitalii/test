@@ -1,0 +1,64 @@
+body {
+    background-color: brown;
+    width: 100%;
+    height: 200vh;
+}
+
+.container {
+    width: 165px;
+    height: 550px;
+    border: solid gray 2px;
+    margin: auto;
+    position: relative;
+    top: 350px;
+}
+
+.box {
+    height: 150px;
+    width: 150px;
+    border: solid 2px black;
+    margin: 5px;
+    display: inline-block;
+}
+
+div p {
+    text-align: center;
+    font-size: 30px;
+    color: burlywood;
+}
+
+.blue {
+background-color: blue;
+z-index: 2;
+position: relative;
+top: 0px;
+}
+.yellow {
+background-color: yellow;
+z-index: 1;
+position: absolute;
+top: 168px;
+}
+.green {
+background-color: green;
+z-index: 3;
+position: sticky;
+left: 168px;
+top: 350px;
+}
+.blue p {
+    position: absolute;
+    left: 20%;
+    top: 15%;
+}
+.yellow p {
+    position: absolute;
+    left: 5%;
+    top: 50%;
+
+}
+.green p {
+    position: absolute;
+    left: 30%;
+    top: 58%;
+}
