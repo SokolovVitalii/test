@@ -27,28 +27,28 @@ body {
 
 .red {
     background-color: red;
-    flex-grow: 1;
+    /* flex-grow: 1; */
     order: 3;
     flex-shrink: 1;
     flex-basis: auto;
 }
 .green {
     background-color: green;
-    flex-grow: 3;
+    /* flex-grow: 3; */
     order: 1;
     flex-shrink: 3;
     flex-basis: auto;
 }
 .black {
     background-color: black;
-    flex-grow: 1;
+    /* flex-grow: 1; */
     order: 2;
     flex-shrink: 1;
     flex-basis: auto;
 }
 .blue {
     background-color: blue;
-    flex-grow: 1;
+    /* flex-grow: 1; */
     order: 1;
     flex-shrink: 1;
     flex-basis: auto;
@@ -57,21 +57,21 @@ body {
 .white {
     color: royalblue;
     background-color: white;
-    flex-grow: 1;
+    /* flex-grow: 1; */
     order: 2;
     flex-shrink: 1;
     flex-basis: auto;
 }
 .orange {
     background-color: orange;
-    flex-grow: 1;
+    /* flex-grow: 1; */
     order: 1;
     flex-shrink: 1;
     flex-basis: auto;
 }
 .pink {
     background-color: pink;
-    flex-grow: 1;
+    /* flex-grow: 1; */
     order: 2;
     flex-shrink: 1;
     flex-basis: auto;
